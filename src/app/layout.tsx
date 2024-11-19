@@ -59,7 +59,7 @@ export default function RootLayout({
 				)}
 			</head>
 			<body
-				className={`${geistSans.variable} ${geistMono.variable} ${departureMono.variable} ${lora.variable} antialiased min-h-fit font-geist flex flex-col md:flex-row p-4 lg:p-32`}
+				className={`${geistSans.variable} ${geistMono.variable} ${departureMono.variable} ${lora.variable} antialiased min-h-fit font-geist flex flex-col md:flex-row p-4 md:p-8 lg:p-32`}
 			>
 				<Hotkeys />
 				<Nav />
